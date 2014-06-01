@@ -19,6 +19,8 @@
 		591EB7C3193701690015D7BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7AB193701690015D7BC /* UIKit.framework */; };
 		591EB7CB193701690015D7BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 591EB7C9193701690015D7BC /* InfoPlist.strings */; };
 		591EB7CD193701690015D7BC /* Impact_of_a_ClaimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB7CC193701690015D7BC /* Impact_of_a_ClaimTests.m */; };
+		591EB7D7193702720015D7BC /* ipad_board.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591EB7D6193702720015D7BC /* ipad_board.storyboard */; };
+		59B6DC7E193BC40300E1AE0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DC7D193BC40300E1AE0D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		591EB7C8193701690015D7BC /* Impact of a ClaimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impact of a ClaimTests-Info.plist"; sourceTree = "<group>"; };
 		591EB7CA193701690015D7BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		591EB7CC193701690015D7BC /* Impact_of_a_ClaimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Impact_of_a_ClaimTests.m; sourceTree = "<group>"; };
+		591EB7D6193702720015D7BC /* ipad_board.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad_board.storyboard; sourceTree = "<group>"; };
+		59B6DC7C193BC40300E1AE0D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59B6DC7D193BC40300E1AE0D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				591EB7B6193701690015D7BC /* AppDelegate.h */,
 				591EB7B7193701690015D7BC /* AppDelegate.m */,
+				591EB7D6193702720015D7BC /* ipad_board.storyboard */,
+				59B6DC7C193BC40300E1AE0D /* ViewController.h */,
+				59B6DC7D193BC40300E1AE0D /* ViewController.m */,
 				591EB7B9193701690015D7BC /* Images.xcassets */,
 				591EB7AE193701690015D7BC /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				591EB7B2193701690015D7BC /* InfoPlist.strings in Resources */,
+				591EB7D7193702720015D7BC /* ipad_board.storyboard in Resources */,
 				591EB7BA193701690015D7BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				591EB7B8193701690015D7BC /* AppDelegate.m in Sources */,
+				59B6DC7E193BC40300E1AE0D /* ViewController.m in Sources */,
 				591EB7B4193701690015D7BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +449,7 @@
 				591EB7D2193701690015D7BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		591EB7D3193701690015D7BC /* Build configuration list for PBXNativeTarget "Impact of a ClaimTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +458,7 @@
 				591EB7D5193701690015D7BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

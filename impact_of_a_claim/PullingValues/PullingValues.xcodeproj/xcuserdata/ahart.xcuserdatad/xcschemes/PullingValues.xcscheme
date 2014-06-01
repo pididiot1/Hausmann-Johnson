@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59B6DC3D193BC34B00E1AE0D"
-               BuildableName = "Impact of a Claim.app"
-               BlueprintName = "Impact of a Claim"
-               ReferencedContainer = "container:Impact of a Claim.xcodeproj">
+               BlueprintIdentifier = "59B6DBF9193BC07A00E1AE0D"
+               BuildableName = "PullingValues.app"
+               BlueprintName = "PullingValues"
+               ReferencedContainer = "container:PullingValues.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59B6DC61193BC34C00E1AE0D"
-               BuildableName = "Impact of a ClaimTests.xctest"
-               BlueprintName = "Impact of a ClaimTests"
-               ReferencedContainer = "container:Impact of a Claim.xcodeproj">
+               BlueprintIdentifier = "59B6DC1D193BC07A00E1AE0D"
+               BuildableName = "PullingValuesTests.xctest"
+               BlueprintName = "PullingValuesTests"
+               ReferencedContainer = "container:PullingValues.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59B6DC3D193BC34B00E1AE0D"
-            BuildableName = "Impact of a Claim.app"
-            BlueprintName = "Impact of a Claim"
-            ReferencedContainer = "container:Impact of a Claim.xcodeproj">
+            BlueprintIdentifier = "59B6DBF9193BC07A00E1AE0D"
+            BuildableName = "PullingValues.app"
+            BlueprintName = "PullingValues"
+            ReferencedContainer = "container:PullingValues.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59B6DC3D193BC34B00E1AE0D"
-            BuildableName = "Impact of a Claim.app"
-            BlueprintName = "Impact of a Claim"
-            ReferencedContainer = "container:Impact of a Claim.xcodeproj">
+            BlueprintIdentifier = "59B6DBF9193BC07A00E1AE0D"
+            BuildableName = "PullingValues.app"
+            BlueprintName = "PullingValues"
+            ReferencedContainer = "container:PullingValues.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59B6DC3D193BC34B00E1AE0D"
-            BuildableName = "Impact of a Claim.app"
-            BlueprintName = "Impact of a Claim"
-            ReferencedContainer = "container:Impact of a Claim.xcodeproj">
+            BlueprintIdentifier = "59B6DBF9193BC07A00E1AE0D"
+            BuildableName = "PullingValues.app"
+            BlueprintName = "PullingValues"
+            ReferencedContainer = "container:PullingValues.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

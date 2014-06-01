@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>512F77C0-7795-4AD3-BCA3-66EDF94C804D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Impact of a Claim</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F60740F9-7FE9-4ED6-BDBF-68142A4F5E81</key>
+		<string>https://github.com/pididiot1/Hausmann-Johnson.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>impact_of_a_claim/Impact of a Claim/Impact of a Claim.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F60740F9-7FE9-4ED6-BDBF-68142A4F5E81</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pididiot1/Hausmann-Johnson.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F60740F9-7FE9-4ED6-BDBF-68142A4F5E81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F60740F9-7FE9-4ED6-BDBF-68142A4F5E81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hausmann-Johnson</string>
+		</dict>
+	</array>
+</dict>
+</plist>

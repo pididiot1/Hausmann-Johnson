@@ -7,155 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		591EB7611936CD590015D7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7601936CD590015D7BC /* Foundation.framework */; };
-		591EB7631936CD590015D7BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7621936CD590015D7BC /* CoreGraphics.framework */; };
-		591EB7651936CD590015D7BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7641936CD590015D7BC /* UIKit.framework */; };
-		591EB76B1936CD590015D7BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 591EB7691936CD590015D7BC /* InfoPlist.strings */; };
-		591EB76D1936CD590015D7BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB76C1936CD590015D7BC /* main.m */; };
-		591EB7711936CD590015D7BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB7701936CD590015D7BC /* AppDelegate.m */; };
-		591EB7741936CD590015D7BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591EB7721936CD590015D7BC /* Main_iPhone.storyboard */; };
-		591EB7771936CD590015D7BC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591EB7751936CD590015D7BC /* Main_iPad.storyboard */; };
-		591EB77A1936CD590015D7BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB7791936CD590015D7BC /* FirstViewController.m */; };
-		591EB77D1936CD590015D7BC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB77C1936CD590015D7BC /* SecondViewController.m */; };
-		591EB77F1936CD590015D7BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591EB77E1936CD590015D7BC /* Images.xcassets */; };
-		591EB7861936CD590015D7BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7851936CD590015D7BC /* XCTest.framework */; };
-		591EB7871936CD590015D7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7601936CD590015D7BC /* Foundation.framework */; };
-		591EB7881936CD590015D7BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591EB7641936CD590015D7BC /* UIKit.framework */; };
-		591EB7901936CD590015D7BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 591EB78E1936CD590015D7BC /* InfoPlist.strings */; };
-		591EB7921936CD590015D7BC /* Impact_of_a_ClaimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 591EB7911936CD590015D7BC /* Impact_of_a_ClaimTests.m */; };
+		59B6DC42193BC34B00E1AE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC41193BC34B00E1AE0D /* Foundation.framework */; };
+		59B6DC44193BC34C00E1AE0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC43193BC34C00E1AE0D /* CoreGraphics.framework */; };
+		59B6DC46193BC34C00E1AE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC45193BC34C00E1AE0D /* UIKit.framework */; };
+		59B6DC4C193BC34C00E1AE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6DC4A193BC34C00E1AE0D /* InfoPlist.strings */; };
+		59B6DC4E193BC34C00E1AE0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DC4D193BC34C00E1AE0D /* main.m */; };
+		59B6DC52193BC34C00E1AE0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DC51193BC34C00E1AE0D /* AppDelegate.m */; };
+		59B6DC55193BC34C00E1AE0D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B6DC53193BC34C00E1AE0D /* Main_iPhone.storyboard */; };
+		59B6DC58193BC34C00E1AE0D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B6DC56193BC34C00E1AE0D /* Main_iPad.storyboard */; };
+		59B6DC5B193BC34C00E1AE0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DC5A193BC34C00E1AE0D /* ViewController.m */; };
+		59B6DC5D193BC34C00E1AE0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B6DC5C193BC34C00E1AE0D /* Images.xcassets */; };
+		59B6DC64193BC34C00E1AE0D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC63193BC34C00E1AE0D /* XCTest.framework */; };
+		59B6DC65193BC34C00E1AE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC41193BC34B00E1AE0D /* Foundation.framework */; };
+		59B6DC66193BC34C00E1AE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6DC45193BC34C00E1AE0D /* UIKit.framework */; };
+		59B6DC6E193BC34C00E1AE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B6DC6C193BC34C00E1AE0D /* InfoPlist.strings */; };
+		59B6DC70193BC34C00E1AE0D /* Impact_of_a_ClaimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6DC6F193BC34C00E1AE0D /* Impact_of_a_ClaimTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		591EB7891936CD590015D7BC /* PBXContainerItemProxy */ = {
+		59B6DC67193BC34C00E1AE0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 591EB7551936CD590015D7BC /* Project object */;
+			containerPortal = 59B6DC36193BC34B00E1AE0D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 591EB75C1936CD590015D7BC;
+			remoteGlobalIDString = 59B6DC3D193BC34B00E1AE0D;
 			remoteInfo = "Impact of a Claim";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		591EB75D1936CD590015D7BC /* Impact of a Claim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Impact of a Claim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		591EB7601936CD590015D7BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		591EB7621936CD590015D7BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		591EB7641936CD590015D7BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		591EB7681936CD590015D7BC /* Impact of a Claim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impact of a Claim-Info.plist"; sourceTree = "<group>"; };
-		591EB76A1936CD590015D7BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		591EB76C1936CD590015D7BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		591EB76E1936CD590015D7BC /* Impact of a Claim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Impact of a Claim-Prefix.pch"; sourceTree = "<group>"; };
-		591EB76F1936CD590015D7BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		591EB7701936CD590015D7BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		591EB7731936CD590015D7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		591EB7761936CD590015D7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		591EB7781936CD590015D7BC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		591EB7791936CD590015D7BC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		591EB77B1936CD590015D7BC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		591EB77C1936CD590015D7BC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		591EB77E1936CD590015D7BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		591EB7841936CD590015D7BC /* Impact of a ClaimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impact of a ClaimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		591EB7851936CD590015D7BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		591EB78D1936CD590015D7BC /* Impact of a ClaimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impact of a ClaimTests-Info.plist"; sourceTree = "<group>"; };
-		591EB78F1936CD590015D7BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		591EB7911936CD590015D7BC /* Impact_of_a_ClaimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Impact_of_a_ClaimTests.m; sourceTree = "<group>"; };
+		59B6DC3E193BC34B00E1AE0D /* Impact of a Claim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Impact of a Claim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B6DC41193BC34B00E1AE0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59B6DC43193BC34C00E1AE0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59B6DC45193BC34C00E1AE0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59B6DC49193BC34C00E1AE0D /* Impact of a Claim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impact of a Claim-Info.plist"; sourceTree = "<group>"; };
+		59B6DC4B193BC34C00E1AE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59B6DC4D193BC34C00E1AE0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59B6DC4F193BC34C00E1AE0D /* Impact of a Claim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Impact of a Claim-Prefix.pch"; sourceTree = "<group>"; };
+		59B6DC50193BC34C00E1AE0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59B6DC51193BC34C00E1AE0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59B6DC54193BC34C00E1AE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		59B6DC57193BC34C00E1AE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		59B6DC59193BC34C00E1AE0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59B6DC5A193BC34C00E1AE0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59B6DC5C193BC34C00E1AE0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59B6DC62193BC34C00E1AE0D /* Impact of a ClaimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Impact of a ClaimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B6DC63193BC34C00E1AE0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59B6DC6B193BC34C00E1AE0D /* Impact of a ClaimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impact of a ClaimTests-Info.plist"; sourceTree = "<group>"; };
+		59B6DC6D193BC34C00E1AE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59B6DC6F193BC34C00E1AE0D /* Impact_of_a_ClaimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Impact_of_a_ClaimTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		591EB75A1936CD590015D7BC /* Frameworks */ = {
+		59B6DC3B193BC34B00E1AE0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB7631936CD590015D7BC /* CoreGraphics.framework in Frameworks */,
-				591EB7651936CD590015D7BC /* UIKit.framework in Frameworks */,
-				591EB7611936CD590015D7BC /* Foundation.framework in Frameworks */,
+				59B6DC44193BC34C00E1AE0D /* CoreGraphics.framework in Frameworks */,
+				59B6DC46193BC34C00E1AE0D /* UIKit.framework in Frameworks */,
+				59B6DC42193BC34B00E1AE0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		591EB7811936CD590015D7BC /* Frameworks */ = {
+		59B6DC5F193BC34C00E1AE0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB7861936CD590015D7BC /* XCTest.framework in Frameworks */,
-				591EB7881936CD590015D7BC /* UIKit.framework in Frameworks */,
-				591EB7871936CD590015D7BC /* Foundation.framework in Frameworks */,
+				59B6DC64193BC34C00E1AE0D /* XCTest.framework in Frameworks */,
+				59B6DC66193BC34C00E1AE0D /* UIKit.framework in Frameworks */,
+				59B6DC65193BC34C00E1AE0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		591EB7541936CD590015D7BC = {
+		59B6DC35193BC34B00E1AE0D = {
 			isa = PBXGroup;
 			children = (
-				591EB7661936CD590015D7BC /* Impact of a Claim */,
-				591EB78B1936CD590015D7BC /* Impact of a ClaimTests */,
-				591EB75F1936CD590015D7BC /* Frameworks */,
-				591EB75E1936CD590015D7BC /* Products */,
+				59B6DC47193BC34C00E1AE0D /* Impact of a Claim */,
+				59B6DC69193BC34C00E1AE0D /* Impact of a ClaimTests */,
+				59B6DC40193BC34B00E1AE0D /* Frameworks */,
+				59B6DC3F193BC34B00E1AE0D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		591EB75E1936CD590015D7BC /* Products */ = {
+		59B6DC3F193BC34B00E1AE0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				591EB75D1936CD590015D7BC /* Impact of a Claim.app */,
-				591EB7841936CD590015D7BC /* Impact of a ClaimTests.xctest */,
+				59B6DC3E193BC34B00E1AE0D /* Impact of a Claim.app */,
+				59B6DC62193BC34C00E1AE0D /* Impact of a ClaimTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		591EB75F1936CD590015D7BC /* Frameworks */ = {
+		59B6DC40193BC34B00E1AE0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				591EB7601936CD590015D7BC /* Foundation.framework */,
-				591EB7621936CD590015D7BC /* CoreGraphics.framework */,
-				591EB7641936CD590015D7BC /* UIKit.framework */,
-				591EB7851936CD590015D7BC /* XCTest.framework */,
+				59B6DC41193BC34B00E1AE0D /* Foundation.framework */,
+				59B6DC43193BC34C00E1AE0D /* CoreGraphics.framework */,
+				59B6DC45193BC34C00E1AE0D /* UIKit.framework */,
+				59B6DC63193BC34C00E1AE0D /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		591EB7661936CD590015D7BC /* Impact of a Claim */ = {
+		59B6DC47193BC34C00E1AE0D /* Impact of a Claim */ = {
 			isa = PBXGroup;
 			children = (
-				591EB76F1936CD590015D7BC /* AppDelegate.h */,
-				591EB7701936CD590015D7BC /* AppDelegate.m */,
-				591EB7721936CD590015D7BC /* Main_iPhone.storyboard */,
-				591EB7751936CD590015D7BC /* Main_iPad.storyboard */,
-				591EB7781936CD590015D7BC /* FirstViewController.h */,
-				591EB7791936CD590015D7BC /* FirstViewController.m */,
-				591EB77B1936CD590015D7BC /* SecondViewController.h */,
-				591EB77C1936CD590015D7BC /* SecondViewController.m */,
-				591EB77E1936CD590015D7BC /* Images.xcassets */,
-				591EB7671936CD590015D7BC /* Supporting Files */,
+				59B6DC50193BC34C00E1AE0D /* AppDelegate.h */,
+				59B6DC51193BC34C00E1AE0D /* AppDelegate.m */,
+				59B6DC53193BC34C00E1AE0D /* Main_iPhone.storyboard */,
+				59B6DC56193BC34C00E1AE0D /* Main_iPad.storyboard */,
+				59B6DC59193BC34C00E1AE0D /* ViewController.h */,
+				59B6DC5A193BC34C00E1AE0D /* ViewController.m */,
+				59B6DC5C193BC34C00E1AE0D /* Images.xcassets */,
+				59B6DC48193BC34C00E1AE0D /* Supporting Files */,
 			);
 			path = "Impact of a Claim";
 			sourceTree = "<group>";
 		};
-		591EB7671936CD590015D7BC /* Supporting Files */ = {
+		59B6DC48193BC34C00E1AE0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				591EB7681936CD590015D7BC /* Impact of a Claim-Info.plist */,
-				591EB7691936CD590015D7BC /* InfoPlist.strings */,
-				591EB76C1936CD590015D7BC /* main.m */,
-				591EB76E1936CD590015D7BC /* Impact of a Claim-Prefix.pch */,
+				59B6DC49193BC34C00E1AE0D /* Impact of a Claim-Info.plist */,
+				59B6DC4A193BC34C00E1AE0D /* InfoPlist.strings */,
+				59B6DC4D193BC34C00E1AE0D /* main.m */,
+				59B6DC4F193BC34C00E1AE0D /* Impact of a Claim-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		591EB78B1936CD590015D7BC /* Impact of a ClaimTests */ = {
+		59B6DC69193BC34C00E1AE0D /* Impact of a ClaimTests */ = {
 			isa = PBXGroup;
 			children = (
-				591EB7911936CD590015D7BC /* Impact_of_a_ClaimTests.m */,
-				591EB78C1936CD590015D7BC /* Supporting Files */,
+				59B6DC6F193BC34C00E1AE0D /* Impact_of_a_ClaimTests.m */,
+				59B6DC6A193BC34C00E1AE0D /* Supporting Files */,
 			);
 			path = "Impact of a ClaimTests";
 			sourceTree = "<group>";
 		};
-		591EB78C1936CD590015D7BC /* Supporting Files */ = {
+		59B6DC6A193BC34C00E1AE0D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				591EB78D1936CD590015D7BC /* Impact of a ClaimTests-Info.plist */,
-				591EB78E1936CD590015D7BC /* InfoPlist.strings */,
+				59B6DC6B193BC34C00E1AE0D /* Impact of a ClaimTests-Info.plist */,
+				59B6DC6C193BC34C00E1AE0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,13 +158,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		591EB75C1936CD590015D7BC /* Impact of a Claim */ = {
+		59B6DC3D193BC34B00E1AE0D /* Impact of a Claim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 591EB7951936CD590015D7BC /* Build configuration list for PBXNativeTarget "Impact of a Claim" */;
+			buildConfigurationList = 59B6DC73193BC34C00E1AE0D /* Build configuration list for PBXNativeTarget "Impact of a Claim" */;
 			buildPhases = (
-				591EB7591936CD590015D7BC /* Sources */,
-				591EB75A1936CD590015D7BC /* Frameworks */,
-				591EB75B1936CD590015D7BC /* Resources */,
+				59B6DC3A193BC34B00E1AE0D /* Sources */,
+				59B6DC3B193BC34B00E1AE0D /* Frameworks */,
+				59B6DC3C193BC34B00E1AE0D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -177,42 +172,42 @@
 			);
 			name = "Impact of a Claim";
 			productName = "Impact of a Claim";
-			productReference = 591EB75D1936CD590015D7BC /* Impact of a Claim.app */;
+			productReference = 59B6DC3E193BC34B00E1AE0D /* Impact of a Claim.app */;
 			productType = "com.apple.product-type.application";
 		};
-		591EB7831936CD590015D7BC /* Impact of a ClaimTests */ = {
+		59B6DC61193BC34C00E1AE0D /* Impact of a ClaimTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 591EB7981936CD590015D7BC /* Build configuration list for PBXNativeTarget "Impact of a ClaimTests" */;
+			buildConfigurationList = 59B6DC76193BC34C00E1AE0D /* Build configuration list for PBXNativeTarget "Impact of a ClaimTests" */;
 			buildPhases = (
-				591EB7801936CD590015D7BC /* Sources */,
-				591EB7811936CD590015D7BC /* Frameworks */,
-				591EB7821936CD590015D7BC /* Resources */,
+				59B6DC5E193BC34C00E1AE0D /* Sources */,
+				59B6DC5F193BC34C00E1AE0D /* Frameworks */,
+				59B6DC60193BC34C00E1AE0D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				591EB78A1936CD590015D7BC /* PBXTargetDependency */,
+				59B6DC68193BC34C00E1AE0D /* PBXTargetDependency */,
 			);
 			name = "Impact of a ClaimTests";
 			productName = "Impact of a ClaimTests";
-			productReference = 591EB7841936CD590015D7BC /* Impact of a ClaimTests.xctest */;
+			productReference = 59B6DC62193BC34C00E1AE0D /* Impact of a ClaimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		591EB7551936CD590015D7BC /* Project object */ = {
+		59B6DC36193BC34B00E1AE0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hausmann-Johnson Insurance";
 				TargetAttributes = {
-					591EB7831936CD590015D7BC = {
-						TestTargetID = 591EB75C1936CD590015D7BC;
+					59B6DC61193BC34C00E1AE0D = {
+						TestTargetID = 59B6DC3D193BC34B00E1AE0D;
 					};
 				};
 			};
-			buildConfigurationList = 591EB7581936CD590015D7BC /* Build configuration list for PBXProject "Impact of a Claim" */;
+			buildConfigurationList = 59B6DC39193BC34B00E1AE0D /* Build configuration list for PBXProject "Impact of a Claim" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,98 +215,97 @@
 				en,
 				Base,
 			);
-			mainGroup = 591EB7541936CD590015D7BC;
-			productRefGroup = 591EB75E1936CD590015D7BC /* Products */;
+			mainGroup = 59B6DC35193BC34B00E1AE0D;
+			productRefGroup = 59B6DC3F193BC34B00E1AE0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				591EB75C1936CD590015D7BC /* Impact of a Claim */,
-				591EB7831936CD590015D7BC /* Impact of a ClaimTests */,
+				59B6DC3D193BC34B00E1AE0D /* Impact of a Claim */,
+				59B6DC61193BC34C00E1AE0D /* Impact of a ClaimTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		591EB75B1936CD590015D7BC /* Resources */ = {
+		59B6DC3C193BC34B00E1AE0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB7771936CD590015D7BC /* Main_iPad.storyboard in Resources */,
-				591EB77F1936CD590015D7BC /* Images.xcassets in Resources */,
-				591EB7741936CD590015D7BC /* Main_iPhone.storyboard in Resources */,
-				591EB76B1936CD590015D7BC /* InfoPlist.strings in Resources */,
+				59B6DC58193BC34C00E1AE0D /* Main_iPad.storyboard in Resources */,
+				59B6DC5D193BC34C00E1AE0D /* Images.xcassets in Resources */,
+				59B6DC55193BC34C00E1AE0D /* Main_iPhone.storyboard in Resources */,
+				59B6DC4C193BC34C00E1AE0D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		591EB7821936CD590015D7BC /* Resources */ = {
+		59B6DC60193BC34C00E1AE0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB7901936CD590015D7BC /* InfoPlist.strings in Resources */,
+				59B6DC6E193BC34C00E1AE0D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		591EB7591936CD590015D7BC /* Sources */ = {
+		59B6DC3A193BC34B00E1AE0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB77D1936CD590015D7BC /* SecondViewController.m in Sources */,
-				591EB7711936CD590015D7BC /* AppDelegate.m in Sources */,
-				591EB77A1936CD590015D7BC /* FirstViewController.m in Sources */,
-				591EB76D1936CD590015D7BC /* main.m in Sources */,
+				59B6DC5B193BC34C00E1AE0D /* ViewController.m in Sources */,
+				59B6DC52193BC34C00E1AE0D /* AppDelegate.m in Sources */,
+				59B6DC4E193BC34C00E1AE0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		591EB7801936CD590015D7BC /* Sources */ = {
+		59B6DC5E193BC34C00E1AE0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591EB7921936CD590015D7BC /* Impact_of_a_ClaimTests.m in Sources */,
+				59B6DC70193BC34C00E1AE0D /* Impact_of_a_ClaimTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		591EB78A1936CD590015D7BC /* PBXTargetDependency */ = {
+		59B6DC68193BC34C00E1AE0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 591EB75C1936CD590015D7BC /* Impact of a Claim */;
-			targetProxy = 591EB7891936CD590015D7BC /* PBXContainerItemProxy */;
+			target = 59B6DC3D193BC34B00E1AE0D /* Impact of a Claim */;
+			targetProxy = 59B6DC67193BC34C00E1AE0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		591EB7691936CD590015D7BC /* InfoPlist.strings */ = {
+		59B6DC4A193BC34C00E1AE0D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				591EB76A1936CD590015D7BC /* en */,
+				59B6DC4B193BC34C00E1AE0D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		591EB7721936CD590015D7BC /* Main_iPhone.storyboard */ = {
+		59B6DC53193BC34C00E1AE0D /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				591EB7731936CD590015D7BC /* Base */,
+				59B6DC54193BC34C00E1AE0D /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		591EB7751936CD590015D7BC /* Main_iPad.storyboard */ = {
+		59B6DC56193BC34C00E1AE0D /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				591EB7761936CD590015D7BC /* Base */,
+				59B6DC57193BC34C00E1AE0D /* Base */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		591EB78E1936CD590015D7BC /* InfoPlist.strings */ = {
+		59B6DC6C193BC34C00E1AE0D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				591EB78F1936CD590015D7BC /* en */,
+				59B6DC6D193BC34C00E1AE0D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -319,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		591EB7931936CD590015D7BC /* Debug */ = {
+		59B6DC71193BC34C00E1AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		591EB7941936CD590015D7BC /* Release */ = {
+		59B6DC72193BC34C00E1AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +385,7 @@
 			};
 			name = Release;
 		};
-		591EB7961936CD590015D7BC /* Debug */ = {
+		59B6DC74193BC34C00E1AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -404,7 +398,7 @@
 			};
 			name = Debug;
 		};
-		591EB7971936CD590015D7BC /* Release */ = {
+		59B6DC75193BC34C00E1AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +411,7 @@
 			};
 			name = Release;
 		};
-		591EB7991936CD590015D7BC /* Debug */ = {
+		59B6DC77193BC34C00E1AE0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Impact of a Claim.app/Impact of a Claim";
@@ -439,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		591EB79A1936CD590015D7BC /* Release */ = {
+		59B6DC78193BC34C00E1AE0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Impact of a Claim.app/Impact of a Claim";
@@ -460,32 +454,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		591EB7581936CD590015D7BC /* Build configuration list for PBXProject "Impact of a Claim" */ = {
+		59B6DC39193BC34B00E1AE0D /* Build configuration list for PBXProject "Impact of a Claim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				591EB7931936CD590015D7BC /* Debug */,
-				591EB7941936CD590015D7BC /* Release */,
+				59B6DC71193BC34C00E1AE0D /* Debug */,
+				59B6DC72193BC34C00E1AE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		591EB7951936CD590015D7BC /* Build configuration list for PBXNativeTarget "Impact of a Claim" */ = {
+		59B6DC73193BC34C00E1AE0D /* Build configuration list for PBXNativeTarget "Impact of a Claim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				591EB7961936CD590015D7BC /* Debug */,
-				591EB7971936CD590015D7BC /* Release */,
+				59B6DC74193BC34C00E1AE0D /* Debug */,
+				59B6DC75193BC34C00E1AE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		591EB7981936CD590015D7BC /* Build configuration list for PBXNativeTarget "Impact of a ClaimTests" */ = {
+		59B6DC76193BC34C00E1AE0D /* Build configuration list for PBXNativeTarget "Impact of a ClaimTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				591EB7991936CD590015D7BC /* Debug */,
-				591EB79A1936CD590015D7BC /* Release */,
+				59B6DC77193BC34C00E1AE0D /* Debug */,
+				59B6DC78193BC34C00E1AE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 591EB7551936CD590015D7BC /* Project object */;
+	rootObject = 59B6DC36193BC34B00E1AE0D /* Project object */;
 }

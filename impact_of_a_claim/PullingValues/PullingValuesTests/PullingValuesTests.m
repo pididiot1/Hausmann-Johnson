@@ -1,6 +1,6 @@
 //
-//  Impact_of_a_ClaimTests.m
-//  Impact of a ClaimTests
+//  PullingValuesTests.m
+//  PullingValuesTests
 //
 //  Created by Adam Hart on 6/1/14.
 //  Copyright (c) 2014 Hausmann-Johnson Insurance. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Impact_of_a_ClaimTests : XCTestCase
+@interface PullingValuesTests : XCTestCase
 
 @end
 
-@implementation Impact_of_a_ClaimTests
+@implementation PullingValuesTests
 
 - (void)setUp
 {

@@ -1,18 +1,22 @@
 //
-//  SecondViewController.m
-//  Impact of a Claim
+//  ViewController.m
+//  PullingValues
 //
-//  Created by Adam Hart on 5/28/14.
+//  Created by Adam Hart on 6/1/14.
 //  Copyright (c) 2014 Hausmann-Johnson Insurance. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ViewController.h"
 
-@interface SecondViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ViewController
+
+- (IBAction)calcResult:(id)sender {
+    [_result setText:[NSString stringWithFormat:@"%f", [[_a text] floatValue] + [[_b text] floatValue]]];
+}
 
 - (void)viewDidLoad
 {

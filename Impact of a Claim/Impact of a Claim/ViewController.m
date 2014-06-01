@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  ViewController.m
 //  Impact of a Claim
 //
-//  Created by Adam Hart on 5/28/14.
+//  Created by Adam Hart on 6/1/14.
 //  Copyright (c) 2014 Hausmann-Johnson Insurance. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ViewController.h"
 
-@interface FirstViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
