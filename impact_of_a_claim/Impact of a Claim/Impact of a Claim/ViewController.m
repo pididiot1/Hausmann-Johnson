@@ -66,12 +66,12 @@ float calcPremiumCost(float premium, float amount, float elr, float C, float D, 
     
     minCostOnPremium = calcPremiumCost(premium, [_minAmount getFloat], 1, [_expectedLosses getFloat], [_primaryExpected getFloat], [_weighted getFloat], [_ballast getFloat]);
     
-    premiumDifference = minCostOnPremium - medCostOnPremium;
+    premiumDiff = minCostOnPremium - medCostOnPremium;
     
     [_medCOP setText:[NSString stringWithFormat:@"$%.2f", medCostOnPremium]];
     [_minCOP setText:[NSString stringWithFormat:@"$%.2f", minCostOnPremium]];
     
-    [_premiumDifference setText:[NSString stringWithFormat:@"$%.2f", premiumDifference]];
+    [_premiumDifference setText:[NSString stringWithFormat:@"$%.2f", premiumDiff]];
     
 }
 

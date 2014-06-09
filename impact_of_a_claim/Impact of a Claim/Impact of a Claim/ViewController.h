@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 {
     // General
-    float premium, premiumDifference;
+    float premium, premiumDiff;
     // Med only
     float medExpectedExcess, medActualExcess;
     float medActualIncurred, medPrimaryActual;
