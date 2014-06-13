@@ -11,7 +11,8 @@
 @interface ViewController : UIViewController
 {
     // General
-    float premium, premiumDiff;
+    float premiumDiff;
+    float expectedLosses, primaryExpected;
     // Med only
     float medExpectedExcess, medActualExcess;
     float medActualIncurred, medPrimaryActual;
@@ -22,14 +23,14 @@
     float minImpactOnMod, minCostOnPremium;
 }
 // General
-@property IBOutlet UITextField *mod, *payroll, *classCode, *dRatio, *elr, *ballast, *weighted;
-@property IBOutlet UITextField *expectedLosses, *primaryExpected;
+@property IBOutlet UITextField *premium;
+@property IBOutlet UITextField *payroll, *dRatio, *elr, *ballast, *weighted;
 
 // Med only
-@property IBOutlet UITextField *medAmount;
+@property IBOutlet UITextField *medClaim;
 
 // Med/Indemnity
-@property IBOutlet UITextField *minAmount;
+@property IBOutlet UITextField *minClaim;
 
 // Results
 @property IBOutlet UILabel *medCOP, *minCOP, *premiumDifference;

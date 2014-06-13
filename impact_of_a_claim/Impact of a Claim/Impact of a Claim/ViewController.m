@@ -11,7 +11,6 @@
 @interface UITextField (FloatValue)
 
 -(float)getFloat;
-//-(BOOL)testToMakeSureItsAValidFloat;
 
 @end
 
@@ -50,8 +49,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-float calcPremiumCost(float premium, float amount, float elr, float C, float D, float G, float H) {
-    float A = amount * elr;
+float calcPremiumCost(float premium, float amount, float discount, float C, float D, float G, float H) {
+    float A = amount * discount;
     float B = A;
     float E = A - B;
     float F = C - D;
@@ -60,11 +59,13 @@ float calcPremiumCost(float premium, float amount, float elr, float C, float D, 
 
 - (IBAction)calcResult:(id)sender {
     
-    premium = [_payroll getFloat]/100*[_classCode getFloat];
     
-    medCostOnPremium = calcPremiumCost(premium, [_medAmount getFloat], [_elr getFloat], [_expectedLosses getFloat], [_primaryExpected getFloat], [_weighted getFloat], [_ballast getFloat]);
+    expectedLosses = [_elr getFloat]*[_payroll getFloat]/100;
+    primaryExpected = expectedLosses*[_dRatio getFloat];
     
-    minCostOnPremium = calcPremiumCost(premium, [_minAmount getFloat], 1, [_expectedLosses getFloat], [_primaryExpected getFloat], [_weighted getFloat], [_ballast getFloat]);
+    medCostOnPremium = calcPremiumCost([_premium getFloat], [_medClaim getFloat], 0.3, expectedLosses, primaryExpected, [_weighted getFloat], [_ballast getFloat]);
+    
+    minCostOnPremium = calcPremiumCost([_premium getFloat], [_minClaim getFloat], 1, expectedLosses, primaryExpected, [_weighted getFloat], [_ballast getFloat]);
     
     premiumDiff = minCostOnPremium - medCostOnPremium;
     

@@ -28,13 +28,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Class Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8jM-9x-fvk">
-                                <rect key="frame" x="475" y="169" width="125" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="D-Ratio" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Apn-Mo-ivq">
+                            <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="D-Ratio - MOVE" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Apn-Mo-ivq">
                                 <rect key="frame" x="168" y="207" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -46,25 +40,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ballast" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j3l-aO-Wxn">
+                            <textField opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ballast - MOVE" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j3l-aO-Wxn">
                                 <rect key="frame" x="475" y="207" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weighted" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Zi-jD-B1p">
+                            <textField opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weighted - MOVE" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Zi-jD-B1p">
                                 <rect key="frame" x="322" y="245" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MOD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Ya-to-1I6">
+                            <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Premium" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Ya-to-1I6">
                                 <rect key="frame" x="168" y="169" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Med Only Properties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-bT-uEl">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Med Only Claim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeb-bT-uEl">
                                 <rect key="frame" x="207" y="283" width="355" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
@@ -76,7 +70,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Med/Indemnity Properties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAh-6d-po0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Med/Indemnity Claim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAh-6d-po0">
                                 <rect key="frame" x="163" y="389" width="432" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
@@ -88,26 +82,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Losses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7O5-Zv-taY">
-                                <rect key="frame" x="202" y="499" width="355" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expected Losses" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iW9-bm-vhm">
-                                <rect key="frame" x="163" y="567" width="432" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Primary Expected" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="in8-UW-Kdx">
-                                <rect key="frame" x="163" y="605" width="432" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQz-xS-qBi">
-                                <rect key="frame" x="341" y="678" width="86" height="30"/>
+                                <rect key="frame" x="341" y="538" width="86" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -167,18 +143,17 @@
                     <navigationItem key="navigationItem" id="4M1-AJ-SZU"/>
                     <connections>
                         <outlet property="ballast" destination="j3l-aO-Wxn" id="poD-Vj-Xil"/>
-                        <outlet property="classCode" destination="8jM-9x-fvk" id="lv5-mB-MUT"/>
                         <outlet property="dRatio" destination="Apn-Mo-ivq" id="yhE-q4-x9H"/>
                         <outlet property="elr" destination="xFF-Eo-ggF" id="YR1-Q8-JeK"/>
-                        <outlet property="expectedLosses" destination="iW9-bm-vhm" id="umU-5t-2Aa"/>
                         <outlet property="medAmount" destination="0cl-OA-R0C" id="tL6-Zs-ajD"/>
                         <outlet property="medCOP" destination="sP6-ZL-rvS" id="amd-9O-OHd"/>
+                        <outlet property="medClaim" destination="0cl-OA-R0C" id="Wsf-gv-1Dx"/>
                         <outlet property="minAmount" destination="IYh-VG-SRr" id="QLy-az-LpF"/>
                         <outlet property="minCOP" destination="sLu-18-k8D" id="KeU-Dy-s93"/>
-                        <outlet property="mod" destination="0Ya-to-1I6" id="b7E-gf-bOS"/>
+                        <outlet property="minClaim" destination="IYh-VG-SRr" id="BWF-x5-bCL"/>
                         <outlet property="payroll" destination="zBs-VU-5ce" id="8Yy-WL-Nut"/>
+                        <outlet property="premium" destination="0Ya-to-1I6" id="B8M-65-0Mj"/>
                         <outlet property="premiumDifference" destination="0KP-Ut-DKy" id="kPw-g1-SCl"/>
-                        <outlet property="primaryExpected" destination="in8-UW-Kdx" id="mzy-ft-zZb"/>
                         <outlet property="weighted" destination="6Zi-jD-B1p" id="MgC-4Q-KJm"/>
                     </connections>
                 </viewController>
